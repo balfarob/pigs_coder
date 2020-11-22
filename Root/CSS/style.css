@@ -1,0 +1,53 @@
+html {
+    font-size: 1.2rem;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/358136.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.simple {
+    width: 500px;
+    margin: 20px auto;
+}
+#foto_pig{
+    display: block;
+    width: 736px;
+    height: 551px;
+    padding-bottom: 2rem;
+}
+h2 { 
+    border-style: solid;
+    text-align: center;
+}
+.flexContainerBody {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: pink;
+    border: 0px dashed pink;
+    
+    background-image: url(https://wallpaperaccess.com/full/358136.jpg);
+}
+.tabla {
+  grid-template-columns: 8px;
+  grid-gap: 1rem;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 150px 150px;
+}
+.grid{
+    align-self: center;
+    align-content: center;
+}
+.pig1{
+    width: 400px;
+    height: 400px;
+}
+.pigs{
+    width: 600px;
+    height: 400px;
+}
+header{
+    padding-top: 5rem;
+}
