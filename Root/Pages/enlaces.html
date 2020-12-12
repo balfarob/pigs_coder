@@ -10,23 +10,50 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <title>Cerditos</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <title>Enlaces</title>
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light" id="barra">
-      <a class="nav-link navbar-brand" href="../index.html">Inicio</a>      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="./Información.html">Información</a>
-          <a class="nav-link" href="./Galeria.html">Galeria</a>
-          <a class="nav-link" href="./Contactanos.html">Contactanos</a>
-          <a class="nav-link" href="./enlaces.html">Enlaces</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./Información.html">Información</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="./Galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="./Contactanos.html" tabindex="-1" aria-disabled="true">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="./enlaces.html" tabindex="-1" aria-disabled="true">Enlaces</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
     </nav>
+    <div class="fixed-top">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4">Collapsed content</h5>
+          <span class="text-muted">Toggleable via the navbar brand.</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
   </header>
   <section>
     <a class=link href="https://www.americatv.com.pe/noticias/util-e-interesante/mini-pig-mascota-que-comen-y-cuidados-n364086"><li>Cuidados de un mini Pig</li></a>
